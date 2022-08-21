@@ -32,7 +32,7 @@ div#app:empty:before {
 }
 
 .progress {
-    background-color: var(--theme-color,#42b983);
+    background-color: var(--theme-color,#1c9c32);
     height: 2px;
     left: 0;
     position: fixed;
@@ -44,11 +44,11 @@ div#app:empty:before {
 }
 
 .search a:hover {
-    color: var(--theme-color,#42b983)
+    color: var(--theme-color,#1c9c32)
 }
 
 .search .search-keyword {
-    color: var(--theme-color,#42b983);
+    color: var(--theme-color,#1c9c32);
     font-style: normal;
     font-weight: 700
 }
@@ -128,12 +128,12 @@ li input[type=checkbox] {
 }
 
 .app-nav a:hover {
-    color: var(--theme-color,#42b983)
+    color: var(--theme-color,#1c9c32)
 }
 
 .app-nav a.active {
-    border-bottom: 2px solid var(--theme-color,#42b983);
-    color: var(--theme-color,#42b983)
+    border-bottom: 2px solid var(--theme-color,#1c9c32);
+    color: var(--theme-color,#1c9c32)
 }
 
 .app-nav li {
@@ -200,7 +200,7 @@ li input[type=checkbox] {
 
 .github-corner svg {
     color: #fff;
-    fill: var(--theme-color,#42b983);
+    fill: var(--theme-color,#1c9c32);
     height: 80px;
     width: 80px
 }
@@ -331,7 +331,7 @@ main.hidden {
 }
 
 .sidebar-toggle span {
-    background-color: var(--theme-color,#42b983);
+    background-color: var(--theme-color,#1c9c32);
     display: block;
     margin-bottom: 4px;
     width: 16px;
@@ -647,9 +647,9 @@ section.cover ul {
 
 section.cover .cover-main>p:last-child a {
     border-radius: 2rem;
-    border: 1px solid var(--theme-color,#42b983);
+    border: 1px solid var(--theme-color,#1c9c32);
     box-sizing: border-box;
-    color: var(--theme-color,#42b983);
+    color: var(--theme-color,#1c9c32);
     display: inline-block;
     font-size: 1.05rem;
     letter-spacing: .1rem;
@@ -660,7 +660,7 @@ section.cover .cover-main>p:last-child a {
 }
 
 section.cover .cover-main>p:last-child a:last-child {
-    background-color: var(--theme-color,#42b983);
+    background-color: var(--theme-color,#1c9c32);
     color: #fff
 }
 
@@ -674,12 +674,12 @@ section.cover .cover-main>p:last-child a:hover {
 }
 
 section.cover blockquote>p>a {
-    border-bottom: 2px solid var(--theme-color,#42b983);
+    border-bottom: 2px solid var(--theme-color,#1c9c32);
     transition: color .3s
 }
 
 section.cover blockquote>p>a:hover {
-    color: var(--theme-color,#42b983)
+    color: var(--theme-color,#1c9c32)
 }
 
 .sidebar,body {
@@ -714,7 +714,7 @@ section.cover blockquote>p>a:hover {
 
 .sidebar ul li.active>a {
     border-right: 2px solid;
-    color: var(--theme-color,#42b983);
+    color: var(--theme-color,#1c9c32);
     font-weight: 600
 }
 
@@ -730,7 +730,7 @@ section.cover blockquote>p>a:hover {
 }
 
 .markdown-section a {
-    color: var(--theme-color,#42b983);
+    color: var(--theme-color,#1c9c32);
     font-weight: 600
 }
 
@@ -776,7 +776,7 @@ section.cover blockquote>p>a:hover {
 }
 
 .markdown-section blockquote {
-    border-left: 4px solid var(--theme-color,#42b983);
+    border-left: 4px solid var(--theme-color,#1c9c32);
     color: #858585;
     margin: 2em 0;
     padding-left: 20px
@@ -907,7 +907,7 @@ section.cover blockquote>p>a:hover {
 }
 
 .token.string {
-    color: var(--theme-color,#42b983)
+    color: var(--theme-color,#1c9c32)
 }
 
 .token.selector {
@@ -923,7 +923,7 @@ section.cover blockquote>p>a:hover {
 }
 
 .token.attr-value,.token.control,.token.directive,.token.unit {
-    color: var(--theme-color,#42b983)
+    color: var(--theme-color,#1c9c32)
 }
 
 .token.function,.token.keyword {
