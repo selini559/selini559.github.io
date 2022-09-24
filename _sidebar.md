@@ -2,7 +2,7 @@
   - [简介](./README.md)
 - HTML + CSS (画点东西)
   - [用css画彩色的旋转方块](./md/rotateBlock.md)
-  - [用css画一个色子](./md/rotateBlock.md)
+  - [用css画一个色子](./md/dice.md)
 - HTML + CSS (知识汇总)
   - [水平垂直居中](./md/center.md)
 - JavaScript
@@ -13,3 +13,6 @@
   - [vue知识点归纳02](./md/vue02.md)
   - [vue知识点归纳03](./md/vue03.md)
   - [vue知识点归纳04](./md/vue04.md)
+  - [vue生命周期](./md/lifecycle.md)
+- ✨百宝箱
+  - [我的百宝箱](./md/myTools.md)
