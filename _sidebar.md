@@ -8,6 +8,7 @@
 - JavaScript
   - [两种简单的原生去重](./md/delateSame.md)
   - [浅谈JS浅拷贝和深拷贝](./md/deepClone.md)
+  - [手把手教会你防抖与节流](./md/debounce%26throttle.md)
 - VUE
   - [vue知识点归纳01](./md/vue01.md)
   - [vue知识点归纳02](./md/vue02.md)
