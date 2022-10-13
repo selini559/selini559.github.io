@@ -38,7 +38,15 @@ vue create vuecli-demo
 
 主要文件
 
-> node_modules - 第三方包 可以通过npm install下载，一般不会做为拷贝对象 public/index.html – 浏览器运行的网页 src/main.js – webpack打包的入口js文件 src/App.vue – vue项目入口vue页面 package.json – 依赖包列表文件
+> node_modules - 第三方包 可以通过npm install下载，一般不会做为拷贝对象
+>
+> public/index.html – 浏览器运行的网页
+>
+> src/main.js – webpack打包的入口js文件
+>
+> src/App.vue – vue项目入口vue页面
+>
+> package.json – 依赖包列表文件
 
 #### 1.3 eslint
 
@@ -51,7 +59,9 @@ vue create vuecli-demo
 - 手动解决掉错误
 
 - 暂时关闭eslint检查 - 在vue.config.js中配置后重启服务
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e024bd14cc1405f9e02c93ce36e3027~tplv-k3u1fbpfcp-watermark.image?)
+
+  ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e024bd14cc1405f9e02c93ce36e3027~tplv-k3u1fbpfcp-watermark.image?)
+
 - 单行注释
 
     ```
@@ -201,9 +211,7 @@ Model层代表数据模型，View代表UI组件，ViewModel是View和Model层的
 
 - 通过 require 的方式引入图片并赋值给data中的变量
 
-    
-
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8376477891714884a5d1e4728d59524b~tplv-k3u1fbpfcp-watermark.image?)
+  ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8376477891714884a5d1e4728d59524b~tplv-k3u1fbpfcp-watermark.image?)
 
 #### 3.3 ❣️重点问题2
 

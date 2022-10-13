@@ -15,5 +15,7 @@
   - [vue知识点归纳03](./md/vue03.md)
   - [vue知识点归纳04](./md/vue04.md)
   - [vue生命周期](./md/lifecycle.md)
+- 面试
+  - [几种遍历方法的区别](./md/for.md)
 - ✨百宝箱
-  - [我的百宝箱](./md/myTools.md)
+  - [我的百宝箱](./md/AAAmyTools.md)

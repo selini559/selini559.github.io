@@ -164,3 +164,71 @@ Vue.prototype.$axios = axios
 </script>
 ```
 
+## ✨路由
+
+**main.js**
+
+```js
+// 1. 通过npm i vue-router@3.5.1 安装依赖， 注意：vue2的项目一定在安装的过程中要输入版本号
+
+// 2. 引入路由
+import VueRouter from 'vue-router'
+
+// 3. Vue.use() 静态方法来使用路由
+Vue.use(VueRouter)
+// 3.1 额外配置，隐藏编程式导航重复跳转时，控制台的警告
+// 解决vue路由重复导航错误
+const originalPush = VueRouter.prototype.push
+// 修改原型对象中的push方法
+VueRouter.prototype.push = function push(location) {
+  return originalPush.call(this, location).catch(err => err)
+}
+
+// 4. 创建路由规则数组
+// 4.1 引入组件
+import Find from './views/find.vue'
+import My from './views/my.vue'
+import Part from './views/part.vue'
+// 4.2 创建数组
+/* 注意：
+  1. 尽量保持path路由与组件名称一致
+  2. 路由规则数组的变量名要求固定写出routes，因为在实例化路由的过程当中，需要使用routes这个变量名进行解构赋值
+*/
+let routes = [
+  {
+    path: '/find', // 路由 设置路由时，一定要加/
+    component: Find, // 绑定对应组件 组件实例对象
+  },
+  {
+    path: '/my',
+    component: My
+  },
+  {
+    path: '/part',
+    component: Part
+  }
+]
+
+// 5. 生成路由对象（传入配置对象）
+// 注意：3. 生成路由对象的变量名 router，固定
+const router = new VueRouter({
+  routes, 
+})
+
+// 6. 挂载到vue实例化对象上
+new Vue({
+  router
+})
+```
+
+**APP.vue**
+
+```vue
+<!-- 7. 通过在组件中使用 <router-view></router-view> 标签来装载需要切换的路由组件内容，其使用效果与 动态组件<component>标签一致 -->
+<div class="top">
+  <!-- 动态组件用 component 标签来切换 -->
+  <!-- 路由则使用 router-view 来进行切换 -->
+  <router-view></router-view>
+</div>
+```
+
